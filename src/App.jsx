@@ -982,7 +982,8 @@ body {
   margin: 0 0 30px;
   font-size: 8rem;
   color: #ffffff;
-  font-family: Montserrat, heavy;
+  font-family: "Montserrat", sans-serif;
+font-weight: 800;
 }
 
 .hero-description {
