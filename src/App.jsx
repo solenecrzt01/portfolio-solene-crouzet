@@ -797,6 +797,7 @@ export default function App() {
 /* ------------------------------------------------------------------ */
 /*  CSS                                                                 */
 /* ------------------------------------------------------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 
 const CSS = `
 html,
