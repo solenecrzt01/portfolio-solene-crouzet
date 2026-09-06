@@ -1039,14 +1039,16 @@ body {
   background: #ff3ba7;
   color: white;
 }
-  .hero-specialty {
+.hero-specialty {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 10px;
-  margin-top: 24px;
-}
 
+  width: 700px;
+  max-width: 85%;
+  margin: 28px auto 0;
+}
 .hero-specialty-icon {
   width: 42px;
   height: 42px;
