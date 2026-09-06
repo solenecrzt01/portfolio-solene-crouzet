@@ -408,7 +408,8 @@ function Home({ go, openProject }) {
 
   <p className="hero-description">
     Bienvenue dans mon univers ! Passionnée par mon travail, j’imagine et donne vie à 
-    des identités visuelles et des projets créatifs, du print au digital.
+    des identités visuelles et à des projets créatifs, du print au digital.
+    Vous avez un projet en tête ? Créons ensemble un univers visuel qui vous ressemble.
   </p>
 
   <button className="hero-button" onClick={() => go("contact")}>
@@ -957,7 +958,7 @@ body {
   font-size: 8rem;
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
-font-weight: 500;
+  font-weight: 800;
 }
 
 .hero-description {
@@ -965,7 +966,7 @@ font-weight: 500;
   color: #ffffff;
   font-size: 1rem;
   font-family: "Montserrat", sans-serif;
-  font-weight: 200;
+  font-weight: 600;
   line-height: 1.5;
   max-width: 650px;
   margin: 20px auto 0;
