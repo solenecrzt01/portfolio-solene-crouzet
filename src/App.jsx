@@ -1001,8 +1001,10 @@ body {
 
 .hero-content {
   position: absolute;
-  top: 50%;
+  top: 46%;
   left: 50%;
+
+  width: 100%;
 
   display: flex;
   flex-direction: column;
