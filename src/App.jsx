@@ -467,7 +467,13 @@ function Home({ go, openProject }) {
       </div>
 
       <section className="section about-teaser">
-        <div className="about-teaser-portrait"><Art accent="#FFBEE3" pattern="frame" /></div>
+        <div className="about-teaser-portrait">
+  <img
+    src="/images/photo_solene.png"
+    alt="Solène Crouzet"
+    className="about-teaser-image"
+  />
+</div>
         <div className="about-teaser-text">
           <h2>Bonjour, je suis Solène.</h2>
           <p>
@@ -1124,6 +1130,12 @@ body {
   grid-template-columns: 0.8fr 1.2fr;
   gap: clamp(24px, 5vw, 60px);
   align-items: center;
+}
+  .about-teaser-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 .about-teaser-portrait { border-radius: 4px; overflow: hidden; aspect-ratio: 4/5; }
 .about-teaser-text h2 { font-size: clamp(1.7rem, 3vw, 2.3rem); margin-bottom: 16px; }
