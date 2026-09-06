@@ -1139,7 +1139,7 @@ body {
 }
 
 .about-teaser-portrait img { width: 100%; height: 100%; object-fit: cover; display: block; }
-.about-teaser-portrait { width: 100%; max-width: 350px; border-radius: 4px; overflow: hidden; aspect-ratio: 1 / 1; margin-left: 50px;}
+.about-teaser-portrait { width: 100%; max-width: 350px; border-radius: 4px; overflow: hidden; aspect-ratio: 1 / 1; margin-left: 150px;}
 .about-teaser-text h2 { font-size: clamp(1.7rem, 3vw, 2.3rem); margin-bottom: 16px; }
 .about-teaser-text p { max-width: 50ch; margin-bottom: 18px; color: color-mix(in srgb, var(--ink) 82%, transparent); }
 
