@@ -965,7 +965,7 @@ font-weight: 500;
   color: #ffffff;
   font-size: 1rem;
   font-family: "Montserrat", sans-serif;
-  font-weight: 300;
+  font-weight: 200;
   line-height: 1.5;
   max-width: 650px;
   margin: 20px auto 0;
