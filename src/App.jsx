@@ -911,10 +911,8 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 2px clamp(20px, 4vw, 48px);
-  background: color-mix(in srgb, var(--paper) 88%, transparent);
-  backdrop-filter: blur(6px);
-  border-bottom: 1px solid color-mix(in srgb, var(--ink) 8%, transparent);
-}
+  background: #111111;
+  border-bottom: none;
   nav a {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -931,7 +929,7 @@ body {
   font-size: 0.85rem;
   position: relative;
   padding-bottom: 3px;
-  color: color-mix(in srgb, var(--ink) 62%, transparent);
+  color: white;
   transition: color 0.2s ease;
 }
 .nav-link::after {
@@ -991,7 +989,7 @@ body {
 }
 .hero-role {
   font-size: 0.85rem;
-  color: color-mix(in srgb, var(--ink) 60%, transparent);
+  color: white;
   opacity: 0;
   transform: translateY(6px);
 }
@@ -1024,7 +1022,7 @@ body {
   margin: -90px auto 20px;
   transform: translateX(60px);
 }
-  .hero-intro {
+.hero-intro {
   background: white;
   padding: 60px 20px;
   text-align: center;
