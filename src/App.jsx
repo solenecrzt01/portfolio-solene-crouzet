@@ -1500,8 +1500,8 @@ body {
 }
 
 .hero-star-2 {
-  top: 35%;
-  right: 9%;
+  top: 50%;
+  right: 20%;
   font-size: 4rem;
   animation-delay: 0.8s;
 }
