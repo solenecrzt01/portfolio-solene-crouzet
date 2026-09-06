@@ -1561,22 +1561,21 @@ body {
 }
 
 .presentation-home-button {
-  margin: 0 auto;
-
-  padding: 18px 50px;
-
   background: #111111;
   color: #ffffff;
 
   border: none;
   border-radius: 999px;
 
+  padding: 18px 50px;
+
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   font-weight: 700;
+
   cursor: pointer;
 }
-  
+
 /* ---------- RESPONSIVE ---------- */
 @media (max-width: 860px) {
   .featured-grid { grid-template-columns: repeat(2, 1fr); }
