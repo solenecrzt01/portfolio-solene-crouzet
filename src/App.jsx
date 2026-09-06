@@ -1218,12 +1218,12 @@ body {
 
 .featured-tile-a { grid-row: span 2; }
 .featured-tile-b { grid-row: span 2; margin-top: 40px; }
-.featured-art {
-  aspect-ratio: 3 / 4;
-  overflow: hidden;
-  border-radius: 10px;
+.featured-art svg,
+.featured-art img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-.featured-art svg { transition: transform 0.5s ease; }
 .featured-tile:hover .featured-art svg { transform: scale(1.06); }
 .featured-meta {
   display: flex;
@@ -1231,20 +1231,32 @@ body {
   gap: 3px;
   padding: 12px 2px 0;
 }
+  .featured-art {
+  width: 100%;
+  height: 320px;
+  overflow: hidden;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+  
 .featured-tile {
   position: relative;
-  overflow: visible;
-  text-align: left;
+  overflow: hidden;
+
+  width: 100%;
+  height: 420px;
+
+  display: flex;
+  flex-direction: column;
 
   background: #ffffff;
-  border: 1px solid rgba(17, 17, 17, 0.12);
   border-radius: 18px;
 
   padding: 14px;
 
   box-shadow:
-    0 8px 0 rgba(17, 17, 17, 0.10),
-    0 18px 30px rgba(17, 17, 17, 0.12);
+    0 10px 25px rgba(0, 0, 0, 0.08),
+    0 22px 45px rgba(0, 0, 0, 0.10);
 
   transition:
     transform 0.3s ease,
