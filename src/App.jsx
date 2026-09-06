@@ -1000,12 +1000,18 @@ body {
 
 .hero-content {
   position: absolute;
+  top: 50%;
+  left: 50%;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
+
   z-index: 3;
+
+  transform: translate(-50%, -50%);
 }
 .hero-logo {
   width: 1500px !important;
