@@ -1046,17 +1046,10 @@ body {
 
 .home-intro .hero-description {
   color: white !important;
-
+  width: 70% !important;
   max-width: 700px !important;
-  width: 80% !important;
-
   margin: 0 auto 55px !important;
   text-align: center !important;
-
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.1rem;
-  font-weight: 600;
-  line-height: 1.5;
 }
 
 .home-intro .hero-button {
