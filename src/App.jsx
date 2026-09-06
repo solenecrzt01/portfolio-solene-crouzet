@@ -405,6 +405,11 @@ function Home({ go, openProject }) {
  <div className="hero-banner">
   <div className="hero-content">
   <h1 className="hero-title">Graphiste</h1>
+  <img
+    src="/images/freelance.svg"
+    alt="freelance"
+    className="hero-signature"
+/>
 
   <p className="hero-description">
     Bienvenue dans mon univers ! J’imagine et conçois des identités visuelles et des projets créatifs, du print au digital. 
@@ -963,7 +968,12 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
 }
-
+.hero-signature {
+  width: 250px;
+  height: auto;
+  display: block;
+  margin: -15px auto 20px;
+}
 .hero-description {
   margin: 0 0 24px;
   color: #ffffff;
