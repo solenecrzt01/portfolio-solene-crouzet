@@ -444,7 +444,9 @@ function Home({ go, openProject }) {
     alt="graphiste"
     className="hero-signature"
 />
+</div>
 
+<div className="hero-intro">
   <p className="hero-description">
     Bienvenue dans mon univers ! J’imagine et conçois des identités visuelles et des projets créatifs, du print au digital. 
     Vous avez un projet ou une idée en tête ? N’hésitez pas à me contacter, je serais ravie d’en discuter avec vous !
@@ -1022,6 +1024,22 @@ body {
   display: block;
   margin: -90px auto 20px;
   transform: translateX(60px);
+}
+  .hero-intro {
+  background: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero-intro .hero-description {
+  color: #111;
+  max-width: 650px;
+  margin: 0 auto 30px;
+}
+
+.hero-intro .hero-button {
+  background: #ff3ba7;
+  color: white;
 }
 .hero-description {
   margin: 0 0 24px;
