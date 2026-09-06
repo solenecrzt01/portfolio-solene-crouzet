@@ -1010,7 +1010,7 @@ body {
 
 .hero-title {
   margin: 0 0 30px;
-  font-size: 8rem;
+  font-size: 10rem;
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
