@@ -952,6 +952,7 @@ body {
 /* ---------- LAYOUT HELPERS ---------- */
 .page { display: flex; flex-direction: column; }
 .section { padding: clamp(40px, 6vw, 80px) clamp(20px, 4vw, 48px); }
+
 .section-head {
   display: flex;
   align-items: baseline;
@@ -959,9 +960,17 @@ body {
   margin-bottom: 28px;
   gap: 16px;
 }
-.section-head h2 { font-size: clamp(1.6rem, 3vw, 2.2rem); }
+.section-head h2 {
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+
 .text-link {
   font-size: 0.85rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+
   border-bottom: 1px solid currentColor;
   padding-bottom: 2px;
   color: var(--accent-text);
@@ -1223,9 +1232,17 @@ body {
   gap: 3px;
   padding: 12px 2px 0;
 }
-.featured-title { font-family: var(--serif); font-size: 1.15rem; }
-.featured-cat { font-size: 0.78rem; color: color-mix(in srgb, var(--ink) 55%, transparent); }
-
+..featured-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+.featured-cat {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.78rem;
+  font-weight: 400;
+  color: color-mix(in srgb, var(--ink) 55%, transparent);
+}
 /* ---------- MARQUEE ---------- */
 .marquee {
   overflow: hidden;
