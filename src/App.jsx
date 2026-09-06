@@ -1706,4 +1706,49 @@ body {
   margin-left: auto !important;
   margin-right: auto !important;
 }
+  /* ===== SECTION PRESENTATION HOME ===== */
+
+.home-intro {
+  width: 100% !important;
+  min-height: 420px !important;
+  box-sizing: border-box !important;
+
+  background: linear-gradient(
+    110deg,
+    #ff00a8 0%,
+    #ff39b2 45%,
+    #f5b1d0 100%
+  ) !important;
+
+  padding: 70px 30px !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  text-align: center !important;
+}
+
+.home-intro > .hero-description {
+  color: #ffffff !important;
+
+  width: 70% !important;
+  max-width: 700px !important;
+
+  margin: 0 auto 50px auto !important;
+
+  text-align: center !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 1.1rem !important;
+  font-weight: 600 !important;
+  line-height: 1.5 !important;
+}
+
+.home-intro > .hero-button {
+  background: #111111 !important;
+  color: #ffffff !important;
+
+  margin: 0 auto !important;
+}
 `;
