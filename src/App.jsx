@@ -1009,7 +1009,6 @@ body {
   text-align: center;
   z-index: 3;
 }
-
 .hero-logo {
   width: 1500px !important;
   max-width: 85% !important;
@@ -1039,6 +1038,41 @@ body {
 .hero-intro .hero-button {
   background: #ff3ba7;
   color: white;
+}
+  .hero-specialty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 24px;
+}
+
+.hero-specialty-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: #111;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1.8rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.hero-specialty-text {
+  background: #111;
+  color: white;
+
+  padding: 10px 22px;
+  border-radius: 999px;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
 }
 .hero-description {
   margin: 0 0 24px;
