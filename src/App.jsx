@@ -940,7 +940,15 @@ body {
     #f2a6c8 0%,
     #ff5ac0 100%
   );
-
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: black;
+  opacity: 0.2;
+  z-index: 1;
+  pointer-events: none;
+}
 .hero-content {
   position: absolute;
 
