@@ -407,9 +407,8 @@ function Home({ go, openProject }) {
   <h1 className="hero-title">Graphiste</h1>
 
   <p className="hero-description">
-    Bienvenue dans mon univers ! Passionnée par mon travail, j’imagine et donne vie à 
-    des identités visuelles et à des projets créatifs, du print au digital.
-    Vous avez un projet en tête ? Créons ensemble un univers visuel qui vous ressemble.
+    Bienvenue dans mon univers ! J’imagine et conçois des identités visuelles et des projets créatifs, du print au digital. 
+    Vous avez un projet ou une idée en tête ? N’hésitez pas à me contacter,je serais ravie d’en discuter avec vous !
   </p>
 
   <button className="hero-button" onClick={() => go("contact")}>
