@@ -1226,10 +1226,23 @@ body {
 }
 .featured-tile:hover .featured-art svg { transform: scale(1.06); }
 .featured-meta {
+  flex: 1;
+
   display: flex;
   flex-direction: column;
-  gap: 3px;
-  padding: 12px 2px 0;
+  justify-content: flex-end;
+  align-items: flex-start;
+
+  width: 100%;
+  padding: 14px 4px 4px;
+  text-align: left;
+}
+  .featured-title {
+  margin: 0;
+}
+
+.featured-cat {
+  margin: 3px 0 0;
 }
   .featured-art {
   width: 100%;
