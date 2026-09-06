@@ -974,7 +974,7 @@ body {
   height: auto;
   display: block;
   margin: -90px auto 20px;
-  transform: translateX(220px);
+  transform: translateX(180px);
 }
 .hero-description {
   margin: 0 0 24px;
