@@ -360,22 +360,21 @@ function Nav({ page, go }) {
       >
         {menuOpen ? "✕" : "☰"}
       </button>
-      {menuOpen && (
-        <div className="mobile-menu-overlay">
-          {NAV_ITEMS.map((item) => (
-            <button
-             key={item.id}
-              className="mobile-menu-link"
-              onClick={() => {
-                go(item.id);
-                setMenuOpen(false);
-              }}
-            >
-              {item.label}
-            </button>
-         ))}
-        </div>
-      )}
+      <div className={`mobile-menu-overlay ${menuOpen ? "is-open" : ""}`}>
+  {NAV_ITEMS.map((item, index) => (
+    <button
+      key={item.id}
+      className="mobile-menu-link"
+      style={{ "--delay": `${index * 0.08}s` }}
+      onClick={() => {
+        go(item.id);
+        setMenuOpen(false);
+      }}
+    >
+      {item.label}
+    </button>
+  ))}
+</div>
       <nav className="nav-links">
         {NAV_ITEMS.map((item) => (
           <button
@@ -1418,17 +1417,33 @@ body {
   transform: translateX(-50%);
 }
   .mobile-menu-overlay {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  background: color #ffffff;
-  padding: 40px 20px;
+  position: fixed;
+  inset: 0;
+
+  background: linear-gradient(
+    135deg,
+    #ff00a8 0%,
+    #ef4db2 50%,
+    #f3b3d2 100%
+  );
+
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 25px;
+  justify-content: center;
+  gap: 30px;
+
   z-index: 1000;
+
+  clip-path: circle(0% at 88% 8%);
+  transition: clip-path 0.65s cubic-bezier(0.77, 0, 0.18, 1);
+
+  pointer-events: none;
+}
+
+.mobile-menu-overlay.is-open {
+  clip-path: circle(150% at 88% 8%);
+  pointer-events: auto;
 }
 
 .mobile-menu-link {
@@ -1436,9 +1451,23 @@ body {
   border: none;
   color: white;
   font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  font-size: 1.3rem;
+  font-weight: 800;
+  font-size: 2rem;
   cursor: pointer;
+
+  opacity: 0;
+  transform: translateY(20px);
+
+  transition:
+    opacity 0.35s ease,
+    transform 0.45s ease;
+
+  transition-delay: var(--delay);
+}
+
+.mobile-menu-overlay.is-open .mobile-menu-link {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .hero-title {
