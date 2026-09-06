@@ -408,7 +408,7 @@ function Home({ go, openProject }) {
 
   <p className="hero-description">
     Bienvenue dans mon univers ! J’imagine et conçois des identités visuelles et des projets créatifs, du print au digital. 
-    Vous avez un projet ou une idée en tête ? N’hésitez pas à me contacter,je serais ravie d’en discuter avec vous !
+    Vous avez un projet ou une idée en tête ? N’hésitez pas à me contacter, je serais ravie d’en discuter avec vous !
   </p>
 
   <button className="hero-button" onClick={() => go("contact")}>
@@ -967,7 +967,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   line-height: 1.5;
-  max-width: 750px;
+  max-width: 700px;
   margin: 20px auto 0;
 }
   display: flex;
