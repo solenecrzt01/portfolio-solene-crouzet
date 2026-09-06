@@ -454,7 +454,20 @@ function Home({ go, openProject }) {
 
   </div>
       </section>
-<div className="home-intro">
+<div
+  className="home-intro"
+  style={{
+    width: "100%",
+    minHeight: "420px",
+    background: "linear-gradient(110deg, #ff00a8 0%, #ff39b2 45%, #f5b1d0 100%)",
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "center",
+    padding: "70px 30px",
+    textAlign: "center",
+  }}
+>
   <p className="hero-description">
     Bienvenue dans mon univers ! J’imagine et conçois des identités visuelles et des projets créatifs, du print au digital. 
     Vous avez un projet ou une idée en tête ? N’hésitez pas à me contacter, je serais ravie d’en discuter avec vous !
@@ -1705,9 +1718,5 @@ body {
   transform: none !important;
   margin-left: auto !important;
   margin-right: auto !important;
-}
-  .home-intro {
-  background: red !important;
-  min-height: 420px !important;
 }
 `;
