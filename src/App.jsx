@@ -1385,7 +1385,7 @@ body {
   width: 90%;
   left: 50%;
   right: auto;
-  top: 42%;
+  top: 30%;
   transform: translateX(-50%);
 }
 
@@ -1404,6 +1404,7 @@ body {
   font-size: 0.9rem;
   margin-left: auto;
   margin-right: auto;
+  text-align: left;
 }
 .hero-button {
   padding: 14px 30px;
