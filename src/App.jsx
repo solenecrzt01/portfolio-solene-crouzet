@@ -1385,7 +1385,7 @@ body {
   width: 90%;
   left: 50%;
   right: auto;
-  top: 10% !important;
+  top: 20% !important;
   transform: translateX(-50%);
 }
 
