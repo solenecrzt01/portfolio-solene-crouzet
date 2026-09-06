@@ -1577,6 +1577,11 @@ body {
   font-weight: 700 !important;
 
   cursor: pointer !important;
+  transition: background 0.25s ease, color 0.25s ease;
+}
+  .presentation-home-button:hover {
+  background: #ffffff !important;
+  color: #111111 !important;
 }
 
 /* ---------- RESPONSIVE ---------- */
