@@ -1561,20 +1561,22 @@ body {
 }
 
 .presentation-home-button {
-  margin: 0 auto;
-  padding: 18px 50px;
+  display: inline-block !important;
 
-  background: #111111;
-  color: #ffffff;
+  margin: 0 auto !important;
+  padding: 18px 50px !important;
 
-  border: none;
-  border-radius: 999px;
+  background: #111111 !important;
+  color: #ffffff !important;
 
-  font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
-  font-weight: 700;
+  border: none !important;
+  border-radius: 999px !important;
 
-  cursor: pointer;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+
+  cursor: pointer !important;
 }
 
 /* ---------- RESPONSIVE ---------- */
