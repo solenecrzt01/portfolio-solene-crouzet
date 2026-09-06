@@ -439,12 +439,18 @@ function Home({ go, openProject }) {
 <span className="hero-star hero-star-3">★</span>
   <div className="hero-content">
   <img
-  src="/images/titre_portfolio.svg"
-  alt="Portfolio"
-  className="hero-logo"
-/>
+    src="/images/titre_portfolio.svg"
+    alt="Portfolio"
+    className="hero-logo"
+  />
+  <div className="hero-specialty">
+  <span className="hero-specialty-icon">›</span>
+  <span className="hero-specialty-text">
+    Design graphique et illustration
+  </span>
 </div>
 
+</div>
 
   </div>
   <div className="hero-bottom">
