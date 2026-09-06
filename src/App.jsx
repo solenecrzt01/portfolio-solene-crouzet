@@ -1475,13 +1475,22 @@ body {
 .contact-success p:first-child { font-family: var(--serif); font-size: 1.4rem; margin-bottom: 6px; }
 .contact-success-sub { color: color-mix(in srgb, var(--ink) 60%, transparent); font-size: 0.9rem; }
 
-/* ---------- RESPONSIVE ---------- */
 .hero-star {
   position: absolute;
-  color: rgba(255, 255, 255, 0.5);
   pointer-events: none;
   z-index: 1;
   animation: heroStarFloat 4s ease-in-out infinite;
+
+  background: linear-gradient(
+    135deg,
+    #ff2fa3 0%,
+    #ff77c8 50%,
+    #ffc1e3 100%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .hero-star-1 {
@@ -1513,6 +1522,8 @@ body {
     transform: translateY(-10px) rotate(8deg);
   }
 }
+
+/* ---------- RESPONSIVE ---------- */
 @media (max-width: 860px) {
   .featured-grid { grid-template-columns: repeat(2, 1fr); }
   .featured-tile-b { margin-top: 0; }
