@@ -1390,7 +1390,7 @@ body {
 }
 
 .hero-title {
-  font-size: 3rem;
+  font-size: 2rem;
   white-space: nowrap;
   display: block;
 }
