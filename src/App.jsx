@@ -1496,21 +1496,16 @@ body {
 }
 
 .hero-star-1 {
-  top: 18%;
-  left: 8%;
-  font-size: 6rem;
+  display: none;
 }
-
+  .hero-star-3 {
+  display: none;
+}
 .hero-star-2 {
   top: 15%;
   right: 18%;
   font-size: 8rem;
-}
-
-.hero-star-3 {
-  bottom: 25%;
-  left: 10%;
-  font-size: 3.5rem;
+  animation: none !important;
 }
 
 @keyframes heroStarFloat {
