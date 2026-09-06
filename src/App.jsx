@@ -1409,7 +1409,7 @@ body {
 /* ---------- RESPONSIVE ---------- */
 .hero-star {
   position: absolute;
-  color: rgba(255, 255, 255, 0.3);
+  color: rgb(0, 0, 0);
   pointer-events: none;
   z-index: 1;
   animation: heroStarFloat 4s ease-in-out infinite;
