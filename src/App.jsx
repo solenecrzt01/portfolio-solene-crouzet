@@ -983,7 +983,7 @@ body {
   font-size: 8rem;
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
-font-weight: 800;
+font-weight: 500;
 }
 
 .hero-description {
