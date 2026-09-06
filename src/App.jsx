@@ -1016,7 +1016,7 @@ body {
 
 .hero-button:hover {
   background-color: white !important;
-  color: #f42ac8 !important;
+  color: #000000 !important;
 }
   .hero-banner-title {
   margin: 0;
