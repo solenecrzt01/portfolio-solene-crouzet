@@ -351,6 +351,9 @@ function Nav({ page, go }) {
   return (
     <header className="nav">
       <Wordmark onClick={() => go("home")} />
+      <button className="menu-toggle">
+      ☰
+      </button>
       <nav className="nav-links">
         {NAV_ITEMS.map((item) => (
           <button
@@ -1414,5 +1417,15 @@ body {
   .nav-links { gap: 10px; }
   .nav-link { font-size: 0.75rem; }
   .hero-bottom { align-items: flex-start; }
+
+  .nav-links {
+  display: none;
+}
+.menu-toggle {
+  display: block;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
 }
 `;
