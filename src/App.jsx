@@ -1505,14 +1505,12 @@ body {
   top: 15%;
   right: 18%;
   font-size: 8rem;
-  animation-delay: 0.8s;
 }
 
 .hero-star-3 {
   bottom: 25%;
   left: 10%;
   font-size: 3.5rem;
-  animation-delay: 1.6s;
 }
 
 @keyframes heroStarFloat {
