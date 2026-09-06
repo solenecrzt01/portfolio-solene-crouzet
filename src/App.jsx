@@ -938,7 +938,7 @@ body {
 .menu-toggle {
   display: none;
 }
-  .menu-star {
+.mobile-menu-overlay {
   display: none;
 }
 
