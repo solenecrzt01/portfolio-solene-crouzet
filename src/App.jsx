@@ -1546,8 +1546,8 @@ body {
 }
 
 .presentation-home-text {
-  width: 70%;
-  max-width: 700px;
+  width: 78% !important;
+  max-width: 820px !important;
 
   margin: 0 auto 50px;
 
@@ -1563,7 +1563,7 @@ body {
 .presentation-home-button {
   display: inline-block !important;
 
-  margin: 0 auto !important;
+  margin-top: 30px !important;
   padding: 18px 50px !important;
 
   background: #111111 !important;
