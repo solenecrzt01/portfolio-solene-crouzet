@@ -1008,6 +1008,7 @@ body {
   justify-content: center;
   text-align: center;
   z-index: 3;
+  transform: translateY(-50px);
 }
 .hero-logo {
   width: 1500px !important;
