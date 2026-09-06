@@ -1423,7 +1423,7 @@ body {
   width: 90%;
   left: 50%;
   right: auto;
-  top: 20% !important;
+  top: 15% !important;
   transform: translateX(-50%);
 }
   .mobile-menu-overlay {
@@ -1552,7 +1552,9 @@ body {
   font-size: 0.8rem !important;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 55px !important;
   text-align: left;
+  
 }
 .hero-button {
   padding: 14px 30px;
