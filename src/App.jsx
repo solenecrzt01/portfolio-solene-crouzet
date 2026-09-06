@@ -972,7 +972,7 @@ body {
   width: 250px;
   height: auto;
   display: block;
-  margin: -15px auto 20px;
+  margin: -45px auto 20px;
   transform: translateX(220px);
 }
 .hero-description {
