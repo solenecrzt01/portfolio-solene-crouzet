@@ -961,7 +961,7 @@ font-weight: 500;
 }
 
 .hero-description {
-  margin: 0 0 24px;
+  margin: 0 0 30px;
 }
 
 .hero-description {
@@ -969,7 +969,7 @@ font-weight: 500;
   font-size: 1rem;
   line-height: 1.5;
   max-width: 500px;
-  margin: 20px auto 0;
+  margin: 30px auto 0;
 }
   display: flex;
   align-items: center;
