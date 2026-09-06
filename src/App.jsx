@@ -453,17 +453,6 @@ function Home({ go, openProject }) {
 </div>
 
   </div>
-  <div className="hero-bottom">
-          <p className="hero-tagline">
-            Je construis des identités visuelles qui ont du caractère —
-            entre rigueur graphique, illustration et un peu d'expérimentation
-            sans permission.
-          </p>
-          <div className="hero-actions">
-            <button className="btn btn-primary" onClick={() => go("projects")}>Voir les projets</button>
-            <button className="btn btn-ghost" onClick={() => go("about")}>À propos</button>
-          </div>
-        </div>
       </section>
 <div className="hero-intro">
   <p className="hero-description">
@@ -1036,18 +1025,32 @@ body {
   transform: translateX(60px);
 }
 .hero-intro {
-  background: white;
-  padding: 60px 20px;
+  width: 100%;
+  min-height: 420px;
+
+  background: linear-gradient(
+    110deg,
+    #ff00a8 0%,
+    #ff39b2 45%,
+    #f5b1d0 100%
+  );
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 70px 30px;
   text-align: center;
 }
 
-.hero-intro .hero-description {
+.hero-description {
   color: #111;
   max-width: 650px;
   margin: 0 auto 30px;
 }
 
-.hero-intro .hero-button {
+.hero-button {
   background: #ff3ba7;
   color: white;
 }
