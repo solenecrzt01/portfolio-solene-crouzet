@@ -1381,6 +1381,34 @@ body {
 }
 
 @media (max-width: 560px) {
+.hero-content {
+  width: 90%;
+  left: 50%;
+  right: auto;
+  transform: translate(-50%, -50%);
+}
+
+.hero-title {
+  font-size: 4rem;
+  white-space: nowrap;
+}
+
+.hero-signature {
+  width: 170px;
+  transform: translateX(80px);
+}
+
+.hero-description {
+  max-width: 90%;
+  font-size: 0.9rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-button {
+  padding: 14px 30px;
+  font-size: 0.9rem;
+}
   .nav { padding: 16px 18px; }
   .nav-links { gap: 10px; }
   .nav-link { font-size: 0.75rem; }
