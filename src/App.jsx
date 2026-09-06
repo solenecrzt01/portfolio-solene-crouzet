@@ -1391,6 +1391,11 @@ body {
 .hero-title {
   font-size: 4rem;
   white-space: nowrap;
+  display: block;
+}
+  .hero-signature {
+  display: block;
+  width: 160px;
 }
 
 .hero-signature {
