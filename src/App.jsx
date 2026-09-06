@@ -1396,7 +1396,7 @@ body {
 }
 .hero-signature {
   display: block;
-  width: 75px;
+  width: 75px !important;
   transform: translate(80px, 15px);
 }
 .hero-description {
