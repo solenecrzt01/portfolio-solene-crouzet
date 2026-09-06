@@ -440,8 +440,8 @@ function Home({ go, openProject }) {
   <div className="hero-content">
   <h1 className="hero-title">Portfolio</h1>
   <img
-    src="/images/freelance.svg"
-    alt="freelance"
+    src="/images/graphisme.svg"
+    alt="graphiste"
     className="hero-signature"
 />
 
@@ -1010,7 +1010,7 @@ body {
 
 .hero-title {
   margin: 0 0 30px;
-  font-size: 10rem;
+  font-size: 12rem;
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
