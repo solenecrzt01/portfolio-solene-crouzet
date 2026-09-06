@@ -968,7 +968,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   line-height: 1.5;
-  max-width: 650px;
+  max-width: 850px;
   margin: 20px auto 0;
 }
   display: flex;
