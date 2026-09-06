@@ -454,7 +454,7 @@ function Home({ go, openProject }) {
 
   </div>
       </section>
-<div className="hero-intro">
+<div className="home-intro">
   <p className="hero-description">
     Bienvenue dans mon univers ! J’imagine et conçois des identités visuelles et des projets créatifs, du print au digital. 
     Vous avez un projet ou une idée en tête ? N’hésitez pas à me contacter, je serais ravie d’en discuter avec vous !
@@ -1024,7 +1024,7 @@ body {
   margin: -90px auto 20px;
   transform: translateX(60px);
 }
-.hero-intro {
+.home-intro {
   width: 100%;
   min-height: 420px;
 
@@ -1044,14 +1044,14 @@ body {
   text-align: center;
 }
 
-.hero-intro .hero-description {
+.home-intro .hero-description {
   color: white !important;
   max-width: 760px;
   margin: 0 auto 55px;
   text-align: center;
 }
 
-.hero-intro .hero-button {
+.home-intro .hero-button {
   background: #111 !important;
   color: white !important;
 }
