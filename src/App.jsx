@@ -1010,8 +1010,8 @@ body {
 }
 
 .hero-logo {
-  width: 520px;
-  max-width: 80%;
+  width: 520px !important;
+  max-width: 80% !important;
   height: auto;
   display: block;
   margin: 0 auto;
