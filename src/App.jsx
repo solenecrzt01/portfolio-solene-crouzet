@@ -1547,7 +1547,7 @@ body {
 
 .presentation-home-text {
   width: 90% !important;
-  max-width: 1100px !important;
+  max-width: 1000px !important;
 
   margin: 0 auto 50px;
 
