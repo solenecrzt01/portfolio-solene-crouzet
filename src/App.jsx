@@ -1429,8 +1429,8 @@ body {
 }
 
 .hero-star-3 {
-  bottom: 12%;
-  left: 20%;
+  bottom: 25%;
+  left: 10%;
   font-size: 3.5rem;
   animation-delay: 1.6s;
 }
