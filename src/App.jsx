@@ -941,23 +941,8 @@ body {
     #ff5ac0 100%
   );
 
-.hero {
-  position: relative;
-}
-
-.hero::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.25);
-  z-index: 1;
-  pointer-events: none;
-}
-
 .hero-content {
-  position: relative;
-  z-index: 2;
-}
+  position: absolute;
 
   display: flex;
   flex-direction: column;
