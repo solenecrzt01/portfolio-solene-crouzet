@@ -1396,12 +1396,12 @@ body {
 }
 .hero-signature {
   display: block;
-  width: 120px !important;
-  transform: translateX(65px);
+  width: 100px;
+  transform: translate(80px, 15px);
 }
 .hero-description {
   max-width: 80% !important;
-  font-size: 0.5rem;
+  font-size: 0.8rem !important;;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
