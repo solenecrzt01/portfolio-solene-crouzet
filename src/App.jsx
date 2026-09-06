@@ -1016,7 +1016,6 @@ font-weight: 500;
   border-radius: 50px !important;
 
   font-size: 1.20rem;
-  font-weight: 600;
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
 
