@@ -1390,14 +1390,14 @@ body {
 }
 
 .hero-title {
-  font-size: 2.8rem !important;
+  font-size: 3rem !important;
   white-space: nowrap;
   display: block;
 }
 .hero-signature {
   display: block;
   width: 120px !important;
-  transform: translate(80px,35px)!important;
+  transform: translate(80px,25px)!important;
 }
 .hero-description {
   max-width: 80% !important;
