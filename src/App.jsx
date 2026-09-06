@@ -1385,19 +1385,19 @@ body {
   width: 90%;
   left: 50%;
   right: auto;
-  top: 20% !important;
+  top: 10% !important;
   transform: translateX(-50%);
 }
 
 .hero-title {
-  font-size: 3rem !important;
+  font-size: 3.2rem !important;
   white-space: nowrap;
   display: block;
 }
 .hero-signature {
   display: block;
   width: 120px !important;
-  transform: translate(80px,25px)!important;
+  transform: translate(80px,35px)!important;
 }
 .hero-description {
   max-width: 80% !important;
