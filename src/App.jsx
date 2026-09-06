@@ -403,7 +403,6 @@ function Home({ go, openProject }) {
       <section className={"hero" + (loaded ? " is-loaded" : "")}>
 
  <div className="hero-banner">
-  <div className="hero-overlay"></div>
   <div className="hero-content">
   <h1 className="hero-title">Graphiste</h1>
 
@@ -939,19 +938,8 @@ body {
   background: linear-gradient(
     -90deg,
     #f2a6c8 0%,
-    #ff5ac0 100%
+    #ff00aa 100%
   );
-.hero-overlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0.50) 0%,
-    rgba(0, 0, 0, 0) 100%
-  );
-  z-index: 1;
-  pointer-events: none;
-}
 .hero-content {
   position: absolute;
 
