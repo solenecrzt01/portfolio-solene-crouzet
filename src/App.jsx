@@ -1033,7 +1033,7 @@ body {
     #ff00a8 0%,
     #ff39b2 45%,
     #f5b1d0 100%
-  );
+  ) !important;
 
   display: flex;
   flex-direction: column;
