@@ -1396,11 +1396,11 @@ body {
 }
 .hero-signature {
   display: block;
-  width: 160px;
-  transform: translateX(80px);
+  width: 120px !important;
+  transform: translateX(65px);
 }
 .hero-description {
-  max-width: 90%;
+  max-width: 80% !important;
   font-size: 0.9rem;
   margin-left: auto;
   margin-right: auto;
