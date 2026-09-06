@@ -944,8 +944,11 @@ body {
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: #000;
-  opacity: 0.2;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.25) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
   z-index: 1;
   pointer-events: none;
 }
