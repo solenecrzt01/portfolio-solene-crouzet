@@ -446,16 +446,7 @@ function Home({ go, openProject }) {
 />
 </div>
 
-<div className="hero-intro">
-  <p className="hero-description">
-    Bienvenue dans mon univers ! J’imagine et conçois des identités visuelles et des projets créatifs, du print au digital. 
-    Vous avez un projet ou une idée en tête ? N’hésitez pas à me contacter, je serais ravie d’en discuter avec vous !
-  </p>
 
-  <button className="hero-button" onClick={() => go("contact")}>
-    Me contacter
-  </button>
-</div>
   </div>
   <div className="hero-bottom">
           <p className="hero-tagline">
@@ -469,7 +460,16 @@ function Home({ go, openProject }) {
           </div>
         </div>
       </section>
+<div className="hero-intro">
+  <p className="hero-description">
+    Bienvenue dans mon univers ! J’imagine et conçois des identités visuelles et des projets créatifs, du print au digital. 
+    Vous avez un projet ou une idée en tête ? N’hésitez pas à me contacter, je serais ravie d’en discuter avec vous !
+  </p>
 
+  <button className="hero-button" onClick={() => go("contact")}>
+    Me contacter
+  </button>
+</div>
       <section className="section">
         <div className="section-head">
           <h2>Quelques projets</h2>
