@@ -1385,7 +1385,7 @@ body {
   width: 90%;
   left: 50%;
   right: auto;
-  top: 30%;
+  top: 30% !important;
   transform: translateX(-50%);
 }
 
@@ -1401,7 +1401,7 @@ body {
 }
 .hero-description {
   max-width: 80% !important;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
