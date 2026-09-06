@@ -946,7 +946,7 @@ body {
   inset: 0;
   background: linear-gradient(
     to bottom,
-    rgba(0, 0, 0, 0.25) 0%,
+    rgba(0, 0, 0, 0.50) 0%,
     rgba(0, 0, 0, 0) 100%
   );
   z-index: 1;
