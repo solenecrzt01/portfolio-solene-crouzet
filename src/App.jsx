@@ -1066,8 +1066,8 @@ body {
 }
 
 .hero-specialty-icon {
-  width: 42px;
-  height: 42px;
+  width: 52px;
+  height: 52px;
   border-radius: 50%;
   background: #111;
   color: white;
@@ -1076,21 +1076,20 @@ body {
   align-items: center;
   justify-content: center;
 
-  font-size: 1.8rem;
-  font-weight: 800;
-  line-height: 1;
+  font-size: 2rem;
+  font-weight: 700;
 }
 
 .hero-specialty-text {
   background: #111;
   color: white;
 
-  padding: 10px 22px;
+  padding: 13px 28px;
   border-radius: 999px;
 
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 .hero-description {
   margin: 0 0 24px;
