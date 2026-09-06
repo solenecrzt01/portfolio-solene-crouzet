@@ -403,6 +403,7 @@ function Home({ go, openProject }) {
       <section className={"hero" + (loaded ? " is-loaded" : "")}>
 
  <div className="hero-banner">
+  <div className="hero-overlay"></div>
   <div className="hero-content">
   <h1 className="hero-title">Graphiste</h1>
 
@@ -940,11 +941,10 @@ body {
     #f2a6c8 0%,
     #ff5ac0 100%
   );
-.hero::after {
-  content: "";
+.hero-overlay {
   position: absolute;
   inset: 0;
-  background-color: black;
+  background: #000;
   opacity: 0.2;
   z-index: 1;
   pointer-events: none;
