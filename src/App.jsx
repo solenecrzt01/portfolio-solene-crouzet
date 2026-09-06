@@ -1017,7 +1017,7 @@ font-weight: 500;
 
   font-size: 1.20rem;
   font-family: "Montserrat", sans-serif;
-  font-weight: 300;
+  font-weight: 800;
 
   text-decoration: none;
   cursor: pointer;
