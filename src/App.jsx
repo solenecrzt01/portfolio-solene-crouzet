@@ -1116,8 +1116,8 @@ body {
 }
 .marquee-track { display: inline-flex; animation: marquee 26s linear infinite; }
 .marquee-set {
-  font-family: var(--serif);
-  font-style: italic;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
   font-size: clamp(1.3rem, 3vw, 2rem);
   padding-right: 8px;
 }
