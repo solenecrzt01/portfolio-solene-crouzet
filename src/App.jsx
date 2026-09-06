@@ -930,7 +930,7 @@ body {
   font-size: 0.85rem;
   position: relative;
   padding-bottom: 3px;
-  color: white;
+  color: white ! important;
   transition: color 0.2s ease;
 }
 .nav-link::after {
@@ -941,9 +941,11 @@ body {
   background: var(--accent);
   transition: right 0.25s ease;
 }
-.nav-link:hover, .nav-link.is-active { color: var(--ink); }
-.nav-link:hover::after, .nav-link.is-active::after { right: 0; }
-
+.nav-link:hover,
+.nav-link.is-active {
+  color: white !important;
+}
+  
 .menu-toggle {
   display: none;
 }
