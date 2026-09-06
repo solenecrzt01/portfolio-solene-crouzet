@@ -913,6 +913,7 @@ body {
   padding: 2px clamp(20px, 4vw, 48px);
   background: #111111;
   border-bottom: none;
+}
   nav a {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
