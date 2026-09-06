@@ -968,7 +968,7 @@ font-weight: 500;
   color: #ffffff;
   font-size: 1rem;
   line-height: 1.5;
-  max-width: 700px;
+  max-width: 650px;
   margin: 20px auto 0;
 }
   display: flex;
