@@ -506,12 +506,12 @@ function Home({ go, openProject }) {
   />
 </div>
         <div className="about-teaser-text">
-          <h2>Bonjour, je suis Solène.</h2>
+          <h2>À propos de moi</h2>
           <p>
-            Je travaille aussi bien sur des identités de marque que sur des
-            objets qui sortent de l'écran : figurines, sérigraphies, livres.
-            Ce qui me guide, c'est l'idée qu'un bon système graphique tient
-            debout tout seul, sans avoir besoin d'être expliqué.
+            Moi, c’est Solène, j’ai 21 ans et je suis graphiste récemment diplômée. 
+            J’aime imaginer des univers, donner vie à des idées et créer des projets qui ont leur propre personnalité. 
+            Au fil de mes études et de mes expériences, j’ai eu l’occasion de travailler sur des projets très variés, 
+            qui m’ont permis d’expérimenter, de développer ma créativité et de construire petit à petit mon propre univers graphique.
           </p>
           <button className="text-link" onClick={() => go("about")}>Mon parcours et mes outils</button>
         </div>
