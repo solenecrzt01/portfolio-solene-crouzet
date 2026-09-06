@@ -1576,4 +1576,9 @@ body {
   position: relative;
   z-index: 1001;
 }
+  .about-teaser-portrait {
+  transform: none !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
 `;
