@@ -1561,13 +1561,14 @@ body {
 }
 
 .presentation-home-button {
+  margin: 0 auto;
+  padding: 18px 50px;
+
   background: #111111;
   color: #ffffff;
 
   border: none;
   border-radius: 999px;
-
-  padding: 18px 50px;
 
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
