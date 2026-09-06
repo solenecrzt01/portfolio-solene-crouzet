@@ -412,7 +412,7 @@ function Home({ go, openProject }) {
   </p>
 
   <button className="hero-button" onClick={() => go("projects")}>
-    Voir mes projets
+    Me contacter
   </button>
 </div>
   </div>
