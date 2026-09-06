@@ -1143,7 +1143,7 @@ body {
   border-radius: 4px;
   overflow: hidden;
   aspect-ratio: 1 / 1;
-  transform: translateX(80px);
+  transform: translateX(120px);
 }
 .about-teaser-portrait img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .about-teaser-text h2 { font-size: clamp(1.7rem, 3vw, 2.3rem); margin-bottom: 16px; }
