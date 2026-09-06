@@ -1216,25 +1216,41 @@ body {
   gap: 18px;
 }
 
-.featured-tile-a { grid-row: span 2; }
-.featured-tile-b { grid-row: span 2; margin-top: 40px; }
+.featured-tile-a,
+.featured-tile-b {
+  grid-row: auto;
+  margin-top: 0;
+}
+.featured-art {
+  width: 100%;
+  height: 330px;
+
+  overflow: hidden;
+  border-radius: 10px;
+
+  flex-shrink: 0;
+}
+
 .featured-art svg,
 .featured-art img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: block;
 }
 .featured-tile:hover .featured-art svg { transform: scale(1.06); }
+
 .featured-meta {
-  flex: 1;
+  height: 72px;
+  width: 100%;
 
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
 
-  width: 100%;
-  padding: 14px 4px 4px;
+  padding: 10px 4px 2px;
+  box-sizing: border-box;
   text-align: left;
 }
   .featured-title {
@@ -1244,20 +1260,13 @@ body {
 .featured-cat {
   margin: 3px 0 0;
 }
-  .featured-art {
-  width: 100%;
-  height: 320px;
-  overflow: hidden;
-  border-radius: 10px;
-  flex-shrink: 0;
-}
   
 .featured-tile {
   position: relative;
   overflow: hidden;
 
   width: 100%;
-  height: 420px;
+  height: 430px;
 
   display: flex;
   flex-direction: column;
@@ -1268,8 +1277,8 @@ body {
   padding: 14px;
 
   box-shadow:
-    0 10px 25px rgba(0, 0, 0, 0.08),
-    0 22px 45px rgba(0, 0, 0, 0.10);
+    0 14px 35px rgba(0, 0, 0, 0.10),
+    0 28px 55px rgba(0, 0, 0, 0.08);
 
   transition:
     transform 0.3s ease,
