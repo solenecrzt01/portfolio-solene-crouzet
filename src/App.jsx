@@ -1502,8 +1502,8 @@ body {
   display: none;
 }
 .hero-star-2 {
-  top: 13%;
-  right: 20%;
+  top: 14%;
+  right: 19.5%;
   font-size: 7rem;
   animation: none !important;
 }
