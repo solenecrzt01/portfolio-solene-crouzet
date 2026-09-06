@@ -863,6 +863,10 @@ body {
   backdrop-filter: blur(6px);
   border-bottom: 1px solid color-mix(in srgb, var(--ink) 8%, transparent);
 }
+  nav a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
 .wordmark {
   font-family: var(--serif);
   font-style: italic;
