@@ -1055,7 +1055,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  gap: 10px;
+  gap: 20px;
 
   width: 700px;
   max-width: 85%;
