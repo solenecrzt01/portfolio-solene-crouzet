@@ -415,12 +415,6 @@ function Home({ go, openProject }) {
     Voir mes projets
   </button>
 </div>
-  
-  <img
-    src="/images/solene_hero.PNG"
-    alt="Solène Crouzet"
-    className="hero-photo"
-    />
   </div>
   <div className="hero-bottom">
           <p className="hero-tagline">
@@ -947,27 +941,8 @@ body {
     #ff5ac0 100%
   );
 
-  .hero-photo {
-  position: absolute;
-  left: 5%;
-  bottom: 0;
-
-  height: 85%;
-  width: auto;
-
-  object-fit: contain;
-  z-index: 2;
-  filter: grayscale(100%);
-}
-
 .hero-content {
   position: absolute;
-
-  top: 50%;
-  right: 7%;
-  transform: translateY(-50%);
-
-  width: 55%;
 
   display: flex;
   flex-direction: column;
