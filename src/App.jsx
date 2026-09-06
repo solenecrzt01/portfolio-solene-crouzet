@@ -1048,7 +1048,6 @@ body {
   width: 700px;
   max-width: 85%;
   margin: 10px auto 0;
-  transform: translateX(-15px);
 }
 .hero-specialty-icon {
   width: 42px;
