@@ -1215,15 +1215,14 @@ body {
   grid-template-columns: repeat(4, 1fr);
   gap: 18px;
 }
-.featured-tile {
-  position: relative;
-  overflow: hidden;
-  border-radius: 4px;
-  text-align: left;
-}
+
 .featured-tile-a { grid-row: span 2; }
 .featured-tile-b { grid-row: span 2; margin-top: 40px; }
-.featured-art { aspect-ratio: 3 / 4; overflow: hidden; }
+.featured-art {
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  border-radius: 10px;
+}
 .featured-art svg { transition: transform 0.5s ease; }
 .featured-tile:hover .featured-art svg { transform: scale(1.06); }
 .featured-meta {
@@ -1232,10 +1231,31 @@ body {
   gap: 3px;
   padding: 12px 2px 0;
 }
-..featured-title {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.15rem;
-  font-weight: 600;
+.featured-tile {
+  position: relative;
+  overflow: visible;
+  text-align: left;
+
+  background: #ffffff;
+  border: 1px solid rgba(17, 17, 17, 0.12);
+  border-radius: 18px;
+
+  padding: 14px;
+
+  box-shadow:
+    0 8px 0 rgba(17, 17, 17, 0.10),
+    0 18px 30px rgba(17, 17, 17, 0.12);
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+    .featured-tile:hover {
+  transform: translateY(-10px) rotate(-1deg);
+
+  box-shadow:
+    0 12px 0 rgba(17, 17, 17, 0.12),
+    0 28px 45px rgba(17, 17, 17, 0.18);
 }
 .featured-cat {
   font-family: "Montserrat", sans-serif;
