@@ -1049,7 +1049,7 @@ body {
   max-width: 85%;
   margin: 0px auto 0;
   position: relative;
-  left: -140px;
+  left: -130px;
   top: -60px;
 }
 
