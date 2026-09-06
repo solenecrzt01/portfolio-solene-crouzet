@@ -938,6 +938,9 @@ body {
 .menu-toggle {
   display: none;
 }
+  .menu-star {
+  display: none;
+}
 
 /* ---------- LAYOUT HELPERS ---------- */
 .page { display: flex; flex-direction: column; }
@@ -1513,6 +1516,13 @@ body {
   left: 22%;
   font-size: 1.1rem;
   animation-delay: 0.8s;
+}
+  .menu-star {
+  display: block;
+  position: absolute;
+  color: #ff3ba7;
+  pointer-events: none;
+  animation: starFloat 3s ease-in-out infinite;
 }
 
 @keyframes starFloat {
