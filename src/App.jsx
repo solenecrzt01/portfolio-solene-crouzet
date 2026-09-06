@@ -967,6 +967,7 @@ body {
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
+  transform: translateY(-30px);
 }
 .hero-signature {
   width: 250px;
