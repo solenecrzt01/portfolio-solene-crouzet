@@ -348,12 +348,34 @@ function Wordmark({ onClick }) {
 }
 
 function Nav({ page, go }) {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <header className="nav">
       <Wordmark onClick={() => go("home")} />
-      <button className="menu-toggle">
-      ☰
+      <button
+        className="menu-toggle"
+        onClick={() => setMenuOpen(!menuOpen)}
+        aria-label="Ouvrir le menu"
+      >
+        {menuOpen ? "✕" : "☰"}
       </button>
+      {menuOpen && (
+        <div className="mobile-menu-overlay">
+          {NAV_ITEMS.map((item) => (
+            <button
+             key={item.id}
+              className="mobile-menu-link"
+              onClick={() => {
+                go(item.id);
+                setMenuOpen(false);
+              }}
+            >
+              {item.label}
+            </button>
+         ))}
+        </div>
+      )}
       <nav className="nav-links">
         {NAV_ITEMS.map((item) => (
           <button
@@ -1391,6 +1413,29 @@ body {
   top: 20% !important;
   transform: translateX(-50%);
 }
+  .mobile-menu-overlay {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(90deg, #ff00a8, #e8a0c8);
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  z-index: 1000;
+}
+
+.mobile-menu-link {
+  background: none;
+  border: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
 
 .hero-title {
   font-size: 3.2rem !important;
@@ -1427,5 +1472,6 @@ body {
   border: none;
   font-size: 2rem;
   cursor: pointer;
+  margin-right: 15px;
 }
 `;
