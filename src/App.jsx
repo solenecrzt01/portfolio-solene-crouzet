@@ -1249,8 +1249,9 @@ body {
   justify-content: flex-end;
   align-items: flex-start;
 
-  padding: 10px 4px 2px;
+  padding: 10px 4px 4px 4px;
   box-sizing: border-box;
+
   text-align: left;
 }
   .featured-title {
@@ -1276,9 +1277,9 @@ body {
 
   padding: 14px;
 
-  box-shadow:
-    0 14px 35px rgba(0, 0, 0, 0.10),
-    0 28px 55px rgba(0, 0, 0, 0.08);
+ box-shadow:
+  0 6px 14px rgba(0, 0, 0, 0.12),
+  0 14px 24px rgba(0, 0, 0, 0.08);
 
   transition:
     transform 0.3s ease,
