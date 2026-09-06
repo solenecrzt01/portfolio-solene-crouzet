@@ -359,8 +359,15 @@ function Nav({ page, go }) {
         aria-label="Ouvrir le menu"
       >
         {menuOpen ? "✕" : "☰"}
-      </button>
-      <div className={`mobile-menu-overlay ${menuOpen ? "is-open" : ""}`}>
+  </button>
+  <div className={`mobile-menu-overlay ${menuOpen ? "is-open" : ""}`}>
+
+  <span className="menu-star star-1">✦</span>
+  <span className="menu-star star-2">✦</span>
+  <span className="menu-star star-3">✧</span>
+  <span className="menu-star star-4">✦</span>
+  <span className="menu-star star-5">✧</span>
+
   {NAV_ITEMS.map((item, index) => (
     <button
       key={item.id}
@@ -1466,6 +1473,58 @@ body {
 .mobile-menu-overlay.is-open .mobile-menu-link {
   opacity: 1;
   transform: translateY(0);
+}
+  .menu-star {
+  position: absolute;
+  color: #ff3ba7;
+  pointer-events: none;
+  animation: starFloat 3s ease-in-out infinite;
+}
+
+.star-1 {
+  top: 18%;
+  left: 15%;
+  font-size: 2rem;
+}
+
+.star-2 {
+  top: 28%;
+  right: 14%;
+  font-size: 1.3rem;
+  animation-delay: 0.5s;
+}
+
+.star-3 {
+  top: 52%;
+  left: 10%;
+  font-size: 1.5rem;
+  animation-delay: 1s;
+}
+
+.star-4 {
+  bottom: 18%;
+  right: 18%;
+  font-size: 2.2rem;
+  animation-delay: 1.5s;
+}
+
+.star-5 {
+  bottom: 28%;
+  left: 22%;
+  font-size: 1.1rem;
+  animation-delay: 0.8s;
+}
+
+@keyframes starFloat {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 0.55;
+  }
+
+  50% {
+    transform: translateY(-8px) rotate(12deg);
+    opacity: 1;
+  }
 }
 
 .hero-title {
