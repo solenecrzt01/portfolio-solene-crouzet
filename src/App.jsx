@@ -454,16 +454,20 @@ function Home({ go, openProject }) {
 
   </div>
       </section>
-<div className="home-intro">
-  <p className="hero-description">
-    Bienvenue dans mon univers ! J’imagine et conçois des identités visuelles et des projets créatifs, du print au digital. 
-    Vous avez un projet ou une idée en tête ? N’hésitez pas à me contacter, je serais ravie d’en discuter avec vous !
+<section className="presentation-home">
+
+  <p className="presentation-home-text">
+    Bienvenue dans mon univers ! J’imagine et conçois des identités visuelles et des projets créatifs, du print au digital. Vous avez un projet ou une idée en tête ? N’hésitez pas à me contacter, je serais ravie d’en discuter avec vous !
   </p>
 
-  <button className="hero-button" onClick={() => go("contact")}>
+  <button
+    className="presentation-home-button"
+    onClick={() => go("contact")}
+  >
     Me contacter
   </button>
-</div>
+
+</section>
       <section className="section">
         <div className="section-head">
           <h2>Quelques projets</h2>
@@ -1706,49 +1710,56 @@ body {
   margin-left: auto !important;
   margin-right: auto !important;
 }
-  /* ===== SECTION PRESENTATION HOME ===== */
-
-.home-intro {
-  width: 100% !important;
-  min-height: 420px !important;
-  box-sizing: border-box !important;
+  .presentation-home {
+  width: 100%;
+  min-height: 420px;
+  box-sizing: border-box;
 
   background: linear-gradient(
     110deg,
     #ff00a8 0%,
     #ff39b2 45%,
     #f5b1d0 100%
-  ) !important;
+  );
 
-  padding: 70px 30px !important;
+  padding: 70px 30px;
 
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important;
-  justify-content: center !important;
-
-  text-align: center !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.home-intro > .hero-description {
-  color: #ffffff !important;
+.presentation-home-text {
+  width: 70%;
+  max-width: 700px;
 
-  width: 70% !important;
-  max-width: 700px !important;
+  margin: 0 auto 50px;
 
-  margin: 0 auto 50px auto !important;
+  color: #ffffff;
+  text-align: center;
 
-  text-align: center !important;
-  font-family: "Montserrat", sans-serif !important;
-  font-size: 1.1rem !important;
-  font-weight: 600 !important;
-  line-height: 1.5 !important;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.5;
 }
 
-.home-intro > .hero-button {
-  background: #111111 !important;
-  color: #ffffff !important;
+.presentation-home-button {
+  margin: 0 auto;
 
-  margin: 0 auto !important;
+  padding: 18px 50px;
+
+  background: #111111;
+  color: #ffffff;
+
+  border: none;
+  border-radius: 999px;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+
+  cursor: pointer;
 }
 `;
