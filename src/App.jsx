@@ -941,11 +941,14 @@ body {
   background: var(--accent);
   transition: right 0.25s ease;
 }
-.nav-link:hover,
+.nav-link:hover {
+  color: #ff83d6 !important;
+}
+
 .nav-link.is-active {
   color: white !important;
 }
-  
+
 .menu-toggle {
   display: none;
 }
