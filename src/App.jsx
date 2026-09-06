@@ -1556,7 +1556,7 @@ body {
 }
 .hero-button {
   padding: 14px 30px;
-  font-size: 0.9rem;
+  font-size: 1.25rem;
 }
   .nav { padding: 16px 18px; }
   .nav-links { gap: 10px; }
