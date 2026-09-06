@@ -454,20 +454,7 @@ function Home({ go, openProject }) {
 
   </div>
       </section>
-<div
-  className="home-intro"
-  style={{
-    width: "100%",
-    minHeight: "420px",
-    background: "linear-gradient(110deg, #ff00a8 0%, #ff39b2 45%, #f5b1d0 100%)",
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
-    justifyContent: "center",
-    padding: "70px 30px",
-    textAlign: "center",
-  }}
->
+<div className="home-intro">
   <p className="hero-description">
     Bienvenue dans mon univers ! J’imagine et conçois des identités visuelles et des projets créatifs, du print au digital. 
     Vous avez un projet ou une idée en tête ? N’hésitez pas à me contacter, je serais ravie d’en discuter avec vous !
@@ -1038,8 +1025,8 @@ body {
   transform: translateX(60px);
 }
 .home-intro {
-  width: 100%;
-  min-height: 420px;
+  width: 100% !important;
+  min-height: 420px !important;
 
   background: linear-gradient(
     110deg,
@@ -1048,20 +1035,28 @@ body {
     #f5b1d0 100%
   ) !important;
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
 
-  padding: 70px 30px;
-  text-align: center;
+  padding: 70px 30px !important;
+  text-align: center !important;
 }
 
 .home-intro .hero-description {
   color: white !important;
-  max-width: 760px;
-  margin: 0 auto 55px;
-  text-align: center;
+
+  max-width: 700px !important;
+  width: 80% !important;
+
+  margin: 0 auto 55px !important;
+  text-align: center !important;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.5;
 }
 
 .home-intro .hero-button {
