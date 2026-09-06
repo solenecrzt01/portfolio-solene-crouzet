@@ -1417,15 +1417,13 @@ body {
   transform: translateX(-50%);
 }
   .mobile-menu-overlay {
-  position: fixed;
-  inset: 0;
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
 
-  background: linear-gradient(
-    135deg,
-    #ff00a8 0%,
-    #ef4db2 50%,
-    #f3b3d2 100%
-  );
+  background: #ffffff !important;
 
   display: flex;
   flex-direction: column;
@@ -1433,7 +1431,7 @@ body {
   justify-content: center;
   gap: 30px;
 
-  z-index: 1000;
+  z-index: 9999;
 
   clip-path: circle(0% at 88% 8%);
   transition: clip-path 0.65s cubic-bezier(0.77, 0, 0.18, 1);
