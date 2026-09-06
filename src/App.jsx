@@ -434,6 +434,9 @@ function Home({ go, openProject }) {
       <section className={"hero" + (loaded ? " is-loaded" : "")}>
 
  <div className="hero-banner">
+  <span className="hero-star hero-star-1">★</span>
+<span className="hero-star hero-star-2">★</span>
+<span className="hero-star hero-star-3">★</span>
   <div className="hero-content">
   <h1 className="hero-title">Graphiste</h1>
   <img
@@ -1404,6 +1407,43 @@ body {
 .contact-success-sub { color: color-mix(in srgb, var(--ink) 60%, transparent); font-size: 0.9rem; }
 
 /* ---------- RESPONSIVE ---------- */
+.hero-star {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.3);
+  pointer-events: none;
+  z-index: 1;
+  animation: heroStarFloat 4s ease-in-out infinite;
+}
+
+.hero-star-1 {
+  top: 18%;
+  left: 8%;
+  font-size: 5rem;
+}
+
+.hero-star-2 {
+  top: 25%;
+  right: 9%;
+  font-size: 2.5rem;
+  animation-delay: 0.8s;
+}
+
+.hero-star-3 {
+  bottom: 12%;
+  left: 20%;
+  font-size: 3.5rem;
+  animation-delay: 1.6s;
+}
+
+@keyframes heroStarFloat {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+
+  50% {
+    transform: translateY(-10px) rotate(8deg);
+  }
+}
 @media (max-width: 860px) {
   .featured-grid { grid-template-columns: repeat(2, 1fr); }
   .featured-tile-b { margin-top: 0; }
@@ -1419,6 +1459,10 @@ body {
 }
 
 @media (max-width: 560px) {
+
+.hero-star {
+  display: none;
+}
 .hero-content {
   width: 90%;
   left: 50%;
