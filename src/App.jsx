@@ -407,11 +407,11 @@ function Home({ go, openProject }) {
   <h1 className="hero-title">Graphiste</h1>
 
   <p className="hero-description">
-    Bienvenue dans mon univers ! Graphiste passionnée, j’imagine et donne vie à 
+    Bienvenue dans mon univers ! Passionnée par mon travail, j’imagine et donne vie à 
     des identités visuelles et des projets créatifs, du print au digital.
   </p>
 
-  <button className="hero-button" onClick={() => go("projects")}>
+  <button className="hero-button" onClick={() => go("contact")}>
     Me contacter
   </button>
 </div>
@@ -962,11 +962,10 @@ font-weight: 500;
 
 .hero-description {
   margin: 0 0 24px;
-}
-
-.hero-description {
   color: #ffffff;
   font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
   line-height: 1.5;
   max-width: 650px;
   margin: 20px auto 0;
