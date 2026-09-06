@@ -1044,13 +1044,13 @@ body {
   text-align: center;
 }
 
-.hero-description {
+.hero-intro .hero-description {
   color: #111;
   max-width: 650px;
   margin: 0 auto 30px;
 }
 
-.hero-button {
+.hero-intro .hero-button {
   background: #ff3ba7;
   color: white;
 }
