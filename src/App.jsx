@@ -1046,10 +1046,9 @@ body {
 
 .home-intro .hero-description {
   color: white !important;
-  width: 70% !important;
-  max-width: 700px !important;
-  margin: 0 auto 55px !important;
-  text-align: center !important;
+  max-width: 760px;
+  margin: 0 auto 55px;
+  text-align: center;
 }
 
 .home-intro .hero-button {
