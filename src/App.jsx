@@ -1502,9 +1502,9 @@ body {
   display: none;
 }
 .hero-star-2 {
-  top: 15%;
-  right: 18%;
-  font-size: 8rem;
+  top: 10%;
+  right: 19%;
+  font-size: 7rem;
   animation: none !important;
 }
 
