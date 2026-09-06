@@ -1385,7 +1385,8 @@ body {
   width: 90%;
   left: 50%;
   right: auto;
-  transform: translate(-50%, -50%);
+  top: 42%;
+  transform: translateX(-50%);
 }
 
 .hero-title {
@@ -1393,23 +1394,17 @@ body {
   white-space: nowrap;
   display: block;
 }
-  .hero-signature {
+.hero-signature {
   display: block;
   width: 160px;
-}
-
-.hero-signature {
-  width: 170px;
   transform: translateX(80px);
 }
-
 .hero-description {
   max-width: 90%;
   font-size: 0.9rem;
   margin-left: auto;
   margin-right: auto;
 }
-
 .hero-button {
   padding: 14px 30px;
   font-size: 0.9rem;
