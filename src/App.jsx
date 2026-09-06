@@ -929,6 +929,10 @@ body {
 .nav-link:hover, .nav-link.is-active { color: var(--ink); }
 .nav-link:hover::after, .nav-link.is-active::after { right: 0; }
 
+.menu-toggle {
+  display: none;
+}
+
 /* ---------- LAYOUT HELPERS ---------- */
 .page { display: flex; flex-direction: column; }
 .section { padding: clamp(40px, 6vw, 80px) clamp(20px, 4vw, 48px); }
@@ -1418,7 +1422,7 @@ body {
   top: 100%;
   left: 0;
   width: 100%;
-  background: linear-gradient(90deg, #ff00a8, #e8a0c8);
+  background: color #ffffff;
   padding: 40px 20px;
   display: flex;
   flex-direction: column;
@@ -1473,5 +1477,7 @@ body {
   font-size: 2rem;
   cursor: pointer;
   margin-right: 15px;
+  position: relative;
+  z-index: 1001;
 }
 `;
