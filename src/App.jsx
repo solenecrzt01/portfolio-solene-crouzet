@@ -1045,14 +1045,15 @@ body {
 }
 
 .hero-intro .hero-description {
-  color: #111;
-  max-width: 650px;
-  margin: 0 auto 30px;
+  color: white !important;
+  max-width: 760px;
+  margin: 0 auto 55px;
+  text-align: center;
 }
 
 .hero-intro .hero-button {
-  background: #ff3ba7;
-  color: white;
+  background: #111 !important;
+  color: white !important;
 }
 .hero-specialty {
   display: flex;
