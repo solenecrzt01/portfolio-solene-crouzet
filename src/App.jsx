@@ -1706,4 +1706,8 @@ body {
   margin-left: auto !important;
   margin-right: auto !important;
 }
+  .home-intro {
+  background: red !important;
+  min-height: 420px !important;
+}
 `;
