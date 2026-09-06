@@ -1149,8 +1149,20 @@ body {
   transform: translateX(160px);
 }
 .about-teaser-portrait img { width: 100%; height: 100%; object-fit: cover; display: block; }
-.about-teaser-text h2 { font-size: clamp(1.7rem, 3vw, 2.3rem); margin-bottom: 16px; }
-.about-teaser-text p { max-width: 50ch; margin-bottom: 18px; color: color-mix(in srgb, var(--ink) 82%, transparent); }
+.about-teaser-text h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: clamp(1.7rem, 3vw, 2.3rem);
+  margin-bottom: 16px;
+}
+
+.about-teaser-text p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  max-width: 50ch;
+  margin-bottom: 18px;
+  color: color-mix(in srgb, var(--ink) 82%, transparent);
+}
 
 /* ---------- FOOTER ---------- */
 .site-footer {
