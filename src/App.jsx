@@ -362,11 +362,11 @@ function Nav({ page, go }) {
   </button>
   <div className={`mobile-menu-overlay ${menuOpen ? "is-open" : ""}`}>
 
-  <span className="menu-star star-1">✦</span>
-  <span className="menu-star star-2">✦</span>
-  <span className="menu-star star-3">✧</span>
-  <span className="menu-star star-4">✦</span>
-  <span className="menu-star star-5">✧</span>
+  <span className="menu-star star-1">★</span>
+  <span className="menu-star star-2">★</span>
+  <span className="menu-star star-3">★</span>
+  <span className="menu-star star-4">★</span>
+  <span className="menu-star star-5">★</span>
 
   {NAV_ITEMS.map((item, index) => (
     <button
