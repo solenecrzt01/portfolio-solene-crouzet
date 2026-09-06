@@ -992,19 +992,14 @@ body {
 .hero-banner {
   width: 100%;
   height: calc(100vh - 90px);
-  background: linear-gradient(
-    -90deg,
-    #f2a6c8 0%,
-    #ff00aa 100%
-  );
+  background: color #ffffff;
+
 .hero-content {
   position: absolute;
-
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
   text-align: center;
   z-index: 3;
 }
