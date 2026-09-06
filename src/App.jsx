@@ -1009,13 +1009,12 @@ body {
   z-index: 3;
 }
 
-.hero-title {
-  margin: 0 0 30px;
-  font-size: 10rem;
-  color: #ffffff;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 800;
-  transform: translateY(-20px);
+.hero-logo {
+  width: 520px;
+  max-width: 80%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 .hero-signature {
   width: 250px;
