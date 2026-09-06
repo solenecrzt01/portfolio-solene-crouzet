@@ -1113,11 +1113,14 @@ body {
   border-bottom: 1px solid color-mix(in srgb, var(--ink) 12%, transparent);
   padding: 20px 0;
   white-space: nowrap;
+  background: linear-gradient(-90deg, #ff00a8, #e8a0c8);
+  color: white;
 }
 .marquee-track { display: inline-flex; animation: marquee 26s linear infinite; }
 .marquee-set {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
+  color: white;
   font-size: clamp(1.3rem, 3vw, 2rem);
   padding-right: 8px;
 }
